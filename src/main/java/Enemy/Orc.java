@@ -13,8 +13,5 @@ public class Orc extends Enemy {
     }
 
 
-    public int takeDamage(IWeapon attack){
-        Enemy enemy = new Orc(100);
-        return getHealth() - attack.attack(enemy);
-    }
+
 }

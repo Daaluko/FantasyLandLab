@@ -1,4 +1,5 @@
-import Enemy.Enemy;
+package Weapons;
+
 import Interfaces.IWeapon;
 
 public class Axe implements IWeapon {
@@ -13,8 +14,4 @@ public class Axe implements IWeapon {
         return damage;
     }
 
-    @Override
-    public int attack(Enemy enemyHealth) {
-        return enemyHealth.getHealth() - damage ;
-    }
 }

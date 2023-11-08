@@ -1,5 +1,5 @@
 package Interfaces;
 
 public interface IDefend {
-    int defend();
+    void defend();
 }

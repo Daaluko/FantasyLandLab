@@ -1,3 +1,5 @@
+package Weapons;
+
 import Enemy.Enemy;
 import Interfaces.IWeapon;
 
@@ -9,8 +11,7 @@ public class Sword implements IWeapon {
     }
 
 
-    @Override
-    public int attack(Enemy enemyHealth) {
-        return  enemyHealth.getHealth() - damage;
+    public int getDamage() {
+        return damage;
     }
 }

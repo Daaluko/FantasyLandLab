@@ -3,9 +3,7 @@ package Enemy;
 import Interfaces.IWeapon;
 
 public abstract class Enemy {
-    private int health;
-
-
+    protected int health;
 
     protected Enemy(int health) {
         this.health = health;
@@ -14,7 +12,12 @@ public abstract class Enemy {
 
 
 
-public int getHealth() {
+    public int getHealth() {
         return health;
+    }
+
+    public void takeDamage(int damage) {
+        this.health -= damage;
+
     }
 }
