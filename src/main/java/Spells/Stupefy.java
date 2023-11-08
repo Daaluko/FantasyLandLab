@@ -1,5 +1,6 @@
 package Spells;
 
+import Enemy.Enemy;
 import Interfaces.ISpell;
 
 public class Stupefy implements ISpell {
@@ -14,7 +15,7 @@ public class Stupefy implements ISpell {
     }
 
     @Override
-    public void cast(){
+    public void cast(Enemy enemy, ISpell spell){
 
     }
 }

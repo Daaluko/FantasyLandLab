@@ -3,7 +3,7 @@ package Interfaces;
 import Enemy.Enemy;
 
 public interface IFighter {
-    void attack(Enemy enemy);
+    void attack(Enemy enemy, IWeapon weapon);
 
 
     Object getAxe();
